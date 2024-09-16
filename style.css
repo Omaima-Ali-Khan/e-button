@@ -1,0 +1,41 @@
+html, body {
+    height: 100%; /* Ensure both html and body occupy the full viewport height */
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Initial background is black */
+    transition: background-color 0.5s ease; /* Smooth transition for the background */
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 15px 40px; /* Perfect padding for a better look */
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white; /* Initial button color is white */
+    color: black; /* Initial text color is black */
+    border: none;
+    border-radius: 25px; /* Smooth rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern look */
+}
+
+button:focus {
+    outline: none;
+}
